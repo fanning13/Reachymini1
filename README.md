@@ -23,3 +23,4 @@ and investigating failure modes through systematic testing.
 │   └── team_greeting_app/ # 4.3 Create a Reachy Mini application 
 └── report/                # all the Deliverables
 ```
+后面加复现步骤
