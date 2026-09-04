@@ -6,8 +6,8 @@
 - Assignment: Lab 1 — Introduction to Reachy Mini
 
 ## Team Members
-- TODO: Yifan Luo yl4389
-- TODO: 
+- Yifan Luo yl4389
+- Jiaxin Shen js3996
 
 ## Project Overview
 This repository contains our team's work for Lab 1, which introduces the Reachy Mini
@@ -16,3 +16,8 @@ in MuJoCo simulation, building a custom Reachy Mini application (`team_greeting_
 and investigating failure modes through systematic testing.
 
 ## Repository Structure
+├── README.md
+├── .gitignore
+├── apps/
+│ └── team_greeting_app/ #4.3 Create a Reachy Mini application 
+└── report/ #all the Deliverables
