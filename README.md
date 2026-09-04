@@ -16,8 +16,10 @@ in MuJoCo simulation, building a custom Reachy Mini application (`team_greeting_
 and investigating failure modes through systematic testing.
 
 ## Repository Structure
+```text
 ├── README.md
 ├── .gitignore
 ├── apps/
-│ └── team_greeting_app/ #4.3 Create a Reachy Mini application 
-└── report/ #all the Deliverables
+│   └── team_greeting_app/ # 4.3 Create a Reachy Mini application 
+└── report/                # all the Deliverables
+```
