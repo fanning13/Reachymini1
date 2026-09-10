@@ -45,8 +45,11 @@ and investigating failure modes through systematic testing.
 ```text
 ├── README.md
 ├── .gitignore
-├── apps/
-│   └── team_greeting_app/ # 4.3 Create a Reachy Mini application
+├── app/                   # Application source, web assets, and Python configuration
+│   ├── pyproject.toml
+│   ├── index.html
+│   ├── style.css
+│   └── team_greeting_app/
 └── report/                # all the Deliverables
 ```
 
@@ -174,7 +177,7 @@ and investigating failure modes through systematic testing.
 
 Tested using two terminals with `reachy_mini_env` activated in both:
 - Terminal 1: `reachy-mini-daemon --sim` (simulator/daemon)
-- Terminal 2: `python main.py` → `Ctrl-C` to request stop
+- Terminal 2: `cd app && python -m team_greeting_app.main` → `Ctrl-C` to request stop
 
 | Check | Result |
 |---|---|
@@ -229,7 +232,7 @@ Suggested rationale framing (edit to match your actual choice and reasoning):
 
 ### Deliverables (5 points)
 
-- [ ] Complete app source, `pyproject.toml`, and run instructions under `apps/team_greeting_app/`
+- [ ] Complete app source, `pyproject.toml`, and run instructions under `app/`
 - [ ] Screenshot and short clip showing all three stages with matching log markers in MuJoCo
 - [ ] Simulation test record: 3 repeated cycles + stop-behavior table + parameter variation table (above)
 - [ ] Rationale for final candidate parameters, including anticipated physical-robot risks (above)
