@@ -178,10 +178,10 @@ Tested using two terminals with `reachy_mini_env` activated in both:
 
 | Check | Result |
 |---|---|
-| All three behavioral stages visible | ✅ / ❌ *(fill in)* |
-| Application exits cleanly | ✅ / ❌ *(fill in)* |
+| All three behavioral stages visible | ✅ |
+| Application exits cleanly | ✅ |
 | No control loop remains running after stop | ✅ / ❌ *(fill in)* |
-| Simulated robot returns to neutral | ✅ / ❌ *(fill in)* |
+| Simulated robot returns to neutral | ✅ |
 | Timestamped log markers match observed stages | ✅ / ❌ *(fill in)* |
 
 **Screenshot / clip:** **
